@@ -1,0 +1,231 @@
+---
+bibliography: references.bib
+---
+
+# Syllabus
+
+**Course Number**: BTPS1210BA-E\
+**Credits**: 2\
+**Course type**: Practical\
+**Year**: 2026/27/1, Semester 1 (Autumn)\
+**Class Location**: P/106/A, Institute of Psychology, University of Debrecen\
+**Meeting Times**: Tuesday 10:00 - 11:40\
+**Contact Information**: Please contact me through email anytime: [abari.kalman\@arts.unideb.hu](mailto:abari.kalman@arts.unideb.hu){.email}  
+**Registration table for homework assignments and grades**: [link to the spreadsheet](https://docs.google.com/spreadsheets/d/1fvavHT1sqkiopfs7TKpzF_A14VLqACSuq8lrilaZ1H0/edit?usp=sharing)
+
+## Course overview
+
+During the course, students will acquire the basic digital skills they will need for their studies. The course attempts to balance the knowledge levels of students with different backgrounds. At the beginning of the course, students will learn basic methods of word processing, spreadsheet and presentation design.
+
+The main purpose of the course is to support statistics courses. Today, statistical analysis is carried out by computer, so knowledge of one (or more) statistical software packages is essential. The rest of the course, students will be introduced to the *jamovi* statistical software and will also be introduced to the use of *R/RStudio*. The *jamovi* part of the course will cover statistical processes of data entry and data preparation, descriptive analysis, and graphic analysis. In *RStudio* students will be able to create markdown-based documents and generate HTML documents.
+
+## Attendance
+
+Active participation is an important part of this class. Attendance are required. The maximum number of absences from the practical sessions is three. If the student exceeds the maximum number of absences, a practical grade will not be given and a "refused" will be entered in the electronic learning system.
+
+## Assessment and Grades {#assessment}
+
+During the semester there will be 4 homework assignments and one project. In the @tbl-pd you can see the details of the homework assignments and the project. The project will be presented in the last class. The @tbl-pd also shows the deadlines for the homework assignments and the project.
+
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+| Components                      | Points     | Links                                                             | Dates                             |
++=================================+============+===================================================================+===================================+
+| **Homework 1**                  | 15         | [Details](homework/homework_1.html){target="_blank"}[^syllabus-1] | October 15.                       |
+|                                 |            |                                                                   |                                   |
+| -   RStudio reporting: markdown |            |                                                                   |                                   |
+|                                 |            |                                                                   |                                   |
+| -   Quarto document             |            |                                                                   |                                   |
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+| **Homework 2**                  | 15         | [Details](homework/homework_2.html){target="_blank"}[^syllabus-2] | November 5.                       |
+|                                 |            |                                                                   |                                   |
+| -   Jamovi (1)                  |            |                                                                   |                                   |
+|                                 |            |                                                                   |                                   |
+| -   JabRef                      |            |                                                                   |                                   |
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+| **Homework 3**                  | 15         | [Details](homework/homework_3.html){target="_blank"}[^syllabus-3] | November 26.                      |
+|                                 |            |                                                                   |                                   |
+| -   Jamovi (2)                  |            |                                                                   |                                   |
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+| **Homework 4**                  | 15         | [Details](homework/homework_4.html){target="_blank"}[^syllabus-4] | December 8.                       |
+|                                 |            |                                                                   |                                   |
+| -   Word                        |            |                                                                   |                                   |
+|                                 |            |                                                                   |                                   |
+| -   JabRef                      |            |                                                                   |                                   |
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+| **Project final artifact**      | 30         | [Details](homework/pfa.html){target="_blank"}[^syllabus-5]        | November 10. and December 6.      |
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+| **Project final presentation**  | 10         | [Details](homework/pfp.html){target="_blank"}                     | December 8. (in the class)        |
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+| **TOTAL**                       | 100        |                                                                   |                                   |
++---------------------------------+------------+-------------------------------------------------------------------+-----------------------------------+
+
+: Points and deadlines {#tbl-pd .striped .hover .w-auto .mx-auto}
+
+[^syllabus-1]: Hint: [My solution of Homework 1](homework/homework_1_example.html)
+
+[^syllabus-2]: Hint: [My solution of Homework 2](homework/homework_2_example.html)
+
+[^syllabus-3]: Hint: [My solution of Homework 3](homework/homework_3_example.html)
+
+[^syllabus-4]: Hint: [My solution of Homework 4](homework/homework_4_example.docx)
+
+[^syllabus-5]: Hint: [My solution of Project final artifact](homework/pfa_XYZ123_example.html). [My solution of The answer](homework/pfa_XYZ123_example.pptx).
+
+Many ways to earn **extra points**, which are added to the points shown in the @tbl-pd. Extra points can be earned in the following ways:
+
+- active participation in class (up to 5 points)
+- making and presenting a Kahoot! test (3 points each)
+- winning a Kahoot! test (3 points each)
+- sending a solution of a lab
+
+    - Lab 01
+    
+        - Problem 1: up to 1 point ([link](labs/CS_1_lab_01_files.html#sec-problem-1))
+        - Problem 2: up to 1 point ([link](labs/CS_1_lab_01_files.html#sec-problem-2))
+        - Problem 3: up to 2 points ([link](labs/CS_1_lab_01_files.html#sec-problem-3))
+        
+    - Lab 02
+    
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_02_rstudio.html#sec-problem-1))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_02_rstudio.html#sec-problem-2))
+        - Problem 3: up to 3 points ([link](labs/CS_1_lab_02_rstudio.html#sec-problem-3))
+        - Problem 4: up to 3 points ([link](labs/CS_1_lab_02_rstudio.html#sec-problem-4))
+    
+
+    - Lab 03
+    
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_03_jabref.html#sec-problem-1))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_03_jabref.html#sec-problem-2))
+        - Problem 3: up to 3 points ([link](labs/CS_1_lab_03_jabref.html#sec-problem-3))
+    
+    
+    - Lab 04
+    
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_04_data.html#sec-problem-1))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_04_data.html#sec-problem-2))
+        - Problem 3: up to 3 points ([link](labs/CS_1_lab_04_data.html#sec-problem-3))
+        - Problem 4: up to 3 points ([link](labs/CS_1_lab_04_data.html#sec-problem-4))
+    
+    
+    - Lab 06
+    
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_06_jamovi_2.html#sec-problem-1))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_06_jamovi_2.html#sec-problem-2))
+        - Problem 3: up to 3 points ([link](labs/CS_1_lab_06_jamovi_2.html#sec-problem-3))
+        - Problem 4: up to 3 points ([link](labs/CS_1_lab_06_jamovi_2.html#sec-problem-4))
+    
+    
+    - Lab 07
+    
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-1))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-2))
+        - Problem 3: up to 3 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-3))
+        - Problem 4: up to 3 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-4))
+        - Problem 5: up to 3 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-5))
+        - Problem 6: up to 3 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-6))
+        - Problem 7: up to 3 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-7))
+        - Problem 8: up to 3 points ([link](labs/CS_1_lab_07_jamovi_3.html#sec-problem-8))
+    
+    
+    - Lab 08
+    
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_08_jamovi_4.html#sec-comics-01))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_08_jamovi_4.html#sec-survey-01))
+        - Problem 3: up to 3 points ([link](labs/CS_1_lab_08_jamovi_4.html#sec-problem-3))
+        - Problem 4: up to 3 points ([link](labs/CS_1_lab_08_jamovi_4.html#sec-problem-4))
+        - Problem 5: up to 3 points ([link](labs/CS_1_lab_08_jamovi_4.html#sec-problem-5))
+    
+    
+    - Lab 09
+    
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_09_jamovi_5.html#sec-problem-1))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_09_jamovi_5.html#sec-problem-2))
+        - Problem 3: up to 3 points ([link](labs/CS_1_lab_09_jamovi_5.html#sec-problem-3))
+        - Problem 4: up to 3 points ([link](labs/CS_1_lab_09_jamovi_5.html#sec-problem-4))
+    
+    
+    - Lab 10
+    
+        - Problem 1: up to 4 points ([link](labs/CS_1_lab_10_word.html#sec-problem-1))
+        - Problem 2: up to 4 points ([link](labs/CS_1_lab_10_word.html#sec-problem-2))
+    
+    
+    - Lab 11
+    
+        - Problem 1: up to 4 points ([link](labs/CS_1_lab_11_pptx.html#sec-problem-1))
+        - Problem 2: up to 4 points ([link](labs/CS_1_lab_11_pptx.html#sec-problem-2))
+
+
+
+
+The @tbl-grading shows the grading scale. A student's final grade will be determined by the total number of points earned during the semester. The final grade will be determined as follows:
+
+
+| Points | Grade offered |
+|--------|---------------|
+| 0--50  | 1 (failed)    |
+| 51--60 | 2             |
+| 61--74 | 3             |
+| 75--85 | 4             |
+| 86--   | 5             |
+
+: Grading {#tbl-grading .striped .hover .w-auto .mx-auto}
+
+Students can earn a maximum of 100 points through the homework assignments and the project work, to which extra points are added.
+
+
+## Course details
+
++-------------+----------------------------------------------+-------------------------------+
+| Day         | Topic                                        | Links                         |
++=============+==============================================+===============================+
+| Sept 8      | Intro                                        | [Details](details.qmd#sec-01) |
++-------------+----------------------------------------------+-------------------------------+
+| Sept 15     | Files, directories, compressing              | [Details](details.qmd#sec-02) |
++-------------+----------------------------------------------+-------------------------------+
+| Sept 22     | RStudio reporting: markdown, Quarto document | [Details](details.qmd#sec-03) |
++-------------+----------------------------------------------+-------------------------------+
+| Sept 29     | JabRef - Bibliography management             | [Details](details.qmd#sec-04) |
++-------------+----------------------------------------------+-------------------------------+
+| Oct 6       | TXT, CSV, Spreadsheets                       | [Details](details.qmd#sec-05) |
++-------------+----------------------------------------------+-------------------------------+
+| Oct 13      | Jamovi - Introduction                        | [Details](details.qmd#sec-06) |
++-------------+----------------------------------------------+-------------------------------+
+| Oct 20      | Autumn break                                 |                               |
++-------------+----------------------------------------------+-------------------------------+
+| Oct 27      | Jamovi - Import data, Data conversion        | [Details](details.qmd#sec-07) |
++-------------+----------------------------------------------+-------------------------------+
+| Nov 3       | Jamovi - Data transformation                 | [Details](details.qmd#sec-08) |
++-------------+----------------------------------------------+-------------------------------+
+| Nov 10      | Jamovi - Descriptive statistics I.           | [Details](details.qmd#sec-09) |
++-------------+----------------------------------------------+-------------------------------+
+| Nov 17      | Jamovi - Descriptive statistics II.          | [Details](details.qmd#sec-10) |
++-------------+----------------------------------------------+-------------------------------+
+| Nov 24      | Word - Styles, TOC, Bibliography, APA7       | [Details](details.qmd#sec-11) |
++-------------+----------------------------------------------+-------------------------------+
+| Dec 1       | Presentation: Power Point                    | [Details](details.qmd#sec-12) |
++-------------+----------------------------------------------+-------------------------------+
+| Dec 8       | Project presentation                         | [Details](details.qmd#sec-13) |
++-------------+----------------------------------------------+-------------------------------+
+
+: Course details {.striped .hover .w-auto .mx-auto}
+
+## Textbooks
+
+-   **Required:**
+    -   @uoh2023 [1 Introduction, Advanced studies: presenting data]
+    -   @Navarro2018 [1-117]
+    -   @Poulson2019 [Getting started, Wrangling data, Exploration]
+-   **Optional texts:**
+    -   @pajankar2022
+    -   @Cote2021 [1-77]
+    -   @Sarty2023 [1-109]
+    -   @datascience_tntlab_org
+
+## Software
+
+The course requires some [software](software.qmd).
+
+## Prerequisites
+
+No prerequisite is required. Prior knowledge in computer literacy (word processing, spreadsheets, presentation) is recommended but not required.

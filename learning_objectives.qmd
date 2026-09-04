@@ -1,0 +1,19 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Introduction to Data
+
+https://app.datacamp.com/learn/courses/introduction-to-data
+
+
+This is a short introduction to the basics of data, including data types and data structures and how valuable data can be in decision-making. Let's start this wonderful data journey.
+
+## Data is everwhere
+
+Every day, you come into contact with data without realizing it. In fact, you are data yourself. Your name, age, gender, and so on are all examples of data. The number of shirts you have or coffee cups you drink in a day, your social media comments, pictures, videos, or likes. The education level of your family members. The dimensions of your house. The colour of your car or bike you use to visit friends. The number of trees, hospitals, and schools in a city. The travel time between home to office, but also between the earth and the moon.
+
+Whoever you are, wherever you go, you will find data everywhere.
+

@@ -1,0 +1,142 @@
+# Terms
+
+## Digital literacy: files, directories, compressing
+
+File
+
+:   Logical connetcted data
+
+Directory
+
+:   Operating system
+
+Operating system
+
+:   sdfsfsdf
+
+Computer
+
+:   dsfsdf
+
+Hardware
+
+:   ffgdfgdfg
+
+Software
+
+:   sdfsfsdf
+
+Directory hierarchia
+
+:   sfsfdgdfg
+
+User applications
+
+:   dfsfsfsdf
+
+Utilites
+
+:   sdfsdfsdf
+
+Compressing
+
+:   sdfsdfsdf
+
+Descompressing
+
+:   sdsgsgdfg
+
+## Descriptive statistics I-II.
+
+Statistics
+
+:   The science of collecting, organizing, analyzing, displaying, and
+    interpreting data. There are two basic types of statistical
+    analyses: Descriptive statistics and Inferential statistics.
+
+Descriptive statistics
+
+:   Descriptive statistics are used to organize and present data, often
+    through tables, graphs, and charts.
+
+Inferential statistics
+
+:   Inferential statistics go beyond simply describing the data set.
+    Using this type of statistical analysis, it is possible to make
+    inferences and determine the probability of events occurring in the
+    future.
+
+Population
+
+:   dssdsd
+
+Sample
+
+:   Statistics
+
+Statistics
+
+:   dddddParameter
+
+Parameter
+
+:   Numbers that describe characteristics of a population.
+
+Data set
+
+:   dfsdfsdfsd
+
+Variable
+
+:   dfsdfsdf
+
+Qualitative
+
+:   sdsdfsfds
+
+Quantitave
+
+:   fsdfsdf
+
+Nominal scale
+
+:   adfsdfdsf
+
+Ordinal scale
+
+:   dfsdsf
+
+Continues scale
+
+:   sdfsdfsdf
+
+Distribution
+
+:   fsdfsf
+
+Measures of central tendency
+
+:   Numbers that represent the middle of a data set.
+
+Mean
+
+:   The arithmetic average of a data set.
+
+Median
+
+:   A number that represents the position in the data set for which 50%
+    of the values are above it, and 50% are below it.
+
+:   [@Navarro2018] [@licht2014psychology]
+
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```
+
+https://app.datacamp.com/learn/courses/introduction-to-data
+

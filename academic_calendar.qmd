@@ -1,0 +1,35 @@
+# Schedule of the Academic Year
+
+The academic year in Hungary starts in September and is built up of two semesters: autumn and spring semesters. Both semesters start with a registration period which is followed by the study period and an examination period afterwards. [Details in Hungarian.](https://btk.unideb.hu/tanevbeosztas)
+ 
+## I. (AUTUMN) SEMESTER {.unnumbered}
+
+- Free course registration and withdrawal period: 31 August, 2026
+  (Monday), 8:00 -- 20 September, 2026 (Sunday), 23:59 (3 weeks)
+    - Non-graduating students may register for courses from 13:00 on
+      1 September, 2026.
+- Registration week: 31 August -- 4 September, 2026 (1 week)
+- Part-time education begins on 3 September, 2026 (Thursday).
+- Study period:
+    - Non-graduating students: 7 September -- 11 December, 2026
+      (13 weeks)
+    - Graduating students completing their studies in January 2027:
+      7 September -- 27 November, 2026 (11 weeks)
+- Autumn break: 19 -- 22 October, 2026 (1 week)
+- Examination period:
+    - Non-graduating students: 14 December, 2026 -- 29 January, 2027
+      (7 weeks)
+    - Final examination period for graduating students completing their
+      studies in January 2027: 28 December, 2026 -- 15 January, 2027
+      (3 weeks)
+
+## II. (SPRING) SEMESTER {.unnumbered}
+
+- Registration week: 1 -- 5 February, 2027 (1 week)
+- Study period for non-graduating students: 8 February -- 14 May, 2027
+  (13 weeks)
+- Spring break: 30 March -- 2 April, 2027 (1 week)
+- Examination period for non-graduating students: 18 May -- 2 July,
+  2027 (7 weeks)
+
+

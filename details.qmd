@@ -1,0 +1,159 @@
+# Course details
+
+## Intro {#sec-01}
+
+
+- Readings:
+    - @Navarro2018 [3-12]
+
+
+![@Schweigert2021 pp. 58](image/the_steps_in_conducting_scientific_research.jpg){width=80%}
+
+
+![The course in the BA program](image/cs1_place.jpg){width=80%}
+
+## Files, directories, compressing {#sec-02}
+
+- Readings:
+    - @uoh2023 [1.1 Computer functionality](https://blogs.helsinki.fi/students-digital-skills/1-introduction-to-the-use-of-computers/1-1-computer-functionality/)
+    - @uoh2023 [1.2. Using files and programs](https://blogs.helsinki.fi/students-digital-skills/1-introduction-to-the-use-of-computers/1-2-files-and-directories/)
+- Problems
+    - [Lab 01](labs/CS_1_lab_01_files.html){target="_blank"}
+- Questions
+    - What is the purpose of buying a computer?
+    - What problems does the computer solve?
+    -	How does a computer solve problems?
+    - What is the file?
+    - What is the purpose of the file?
+    - What is the directory
+    - What is the purpose of the directory?
+    - What is the structure of directories?
+    - What is packing and unpacking (or compressing and extraction)?
+    - What is the purpose of the packing?
+- Skills
+    - creating, renaming, coping, moving, deleting files and directories
+    - compressing and extracting files and directories
+    - creating file with special type (TXT, DOCX, XLSX, ODT, ODS, PDF, PPTX, PNG, JPG, OMV, BIB, etc.)
+    - typing special characters (ampersand, angle brackets, apostrophe, asterisk, at sign, backslash, braces, brackets, caret, dollar sign, em dash, en dash, hyphen, backtic, tilde, parentheses, percent, pipe, slash, underscore, etc.)
+    
+    
+
+## RStudio reporting {#sec-03}
+
+- Readings:
+    - [RStudio for the Total Beginner (only the first minute and a half)](https://www.youtube.com/watch?v=FIrsOBy5k58)
+    - [Posit Cheatsheets: RStudio IDE](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html)
+    - [The Markdown Guide](https://www.markdownguide.org/): Getting Started, Markdown Cheat Sheet, Basic Syntax, Extended Syntax
+    - [Posit Cheatsheets: Publish and Share with Quarto](https://rstudio.github.io/cheatsheets/html/quarto.html)
+    - [Tutorial: Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)
+- Problems
+    - [Lab 02](labs/CS_1_lab_02_rstudio.html){target="_blank"}
+
+
+## JabRef - Bibliography management {#sec-04}
+
+- Readings:
+   - [JabRef: Getting started](https://docs.jabref.org/getting-started)
+   - [Quarto: Citations & Footnotes](https://quarto.org/docs/authoring/footnotes-and-citations.html)
+- Problems
+    - [Lab 03](labs/CS_1_lab_03_jabref.html){target="_blank"}
+    
+    
+## TXT, CSV, Spreadsheets {#sec-05}
+
+- Readings:
+    - [What is Tabular Data?](https://www.statology.org/tabular-data/)
+    - @uoh2023 [P.3 Spreadsheets](https://blogs.helsinki.fi/students-digital-skills/advanced-studies-presenting-data/p-3-spreadsheets/)
+- Problems
+    - [Lab 04](labs/CS_1_lab_04_data.html){target="_blank"}
+
+
+## Jamovi - Introduction {#sec-06}
+
+- Readings:
+    - @Navarro2018 [43-49]
+    - @Poulson2019
+        - Welcome
+        - Installing jamovi
+        - Navigating jamovi
+- Problems
+    - [Lab 05](labs/CS_1_lab_05_jamovi_1.html){target="_blank"}
+
+
+## Jamovi - Import data, Data conversion {#sec-07}
+
+- Readings:
+    - @Navarro2018 [49-54]
+    - @Poulson2019
+        - Sample data
+        - jamovi modules
+        - Entering data
+        - Importing data
+        - Variable types & labels
+- Problems
+    - [Lab 06](labs/CS_1_lab_06_jamovi_2.html){target="_blank"}
+
+
+## Jamovi - Data transformation {#sec-08}
+
+- Readings:
+    - @Navarro2018 [97-117]
+    - @Poulson2019
+        - Wrangling data: chapter overview
+        - Computing means
+        - Computing z-scores
+        - Transforming scores to categories
+        - Filtering cases
+- Problems
+    - [Lab 07](labs/CS_1_lab_07_jamovi_3.html){target="_blank"}    
+
+
+## Jamovi - Descriptive statistics I. {#sec-09}
+
+
+- Readings:
+    - @Navarro2018 [59-84]
+    - @Poulson2019
+        - Exploration: chapter overview
+        - Descriptive statistics
+- Problems
+    - [Lab 08](labs/CS_1_lab_08_jamovi_4.html){target="_blank"}    
+
+
+## Jamovi - Descriptive statistics II. {#sec-10}
+
+- Readings:
+    - @Navarro2018 [85-96]
+    - @Poulson2019 
+        - Histograms
+        - Density plots
+        - Box plots
+        - Violin plots
+        - Dot plots
+        - Bar plots
+        - Exporting tables & plots
+- Problems
+    - [Lab 09](labs/CS_1_lab_09_jamovi_5.html){target="_blank"}
+
+## Word processing - Styles, TOC, Bibliography, APA7 {#sec-11}
+
+- Readings:
+   - @uoh2023 [P.2 Word processing](https://blogs.helsinki.fi/students-digital-skills/advanced-studies-presenting-data/p-2-word-processing/)
+   - [Study skills: APA7](https://www.newcastle.edu.au/library/study-skills/referencing/apa7)
+   - [Citation: About APA 7th ed.](https://libguides.csudh.edu/citation/apa-7)
+- Problems
+    - [Lab 10](labs/CS_1_lab_10_word.html){target="_blank"}
+   
+## Presentation: PowerPoint {#sec-12}
+
+- Readings:
+   - @uoh2023 [P.4 Slide shows](https://blogs.helsinki.fi/students-digital-skills/advanced-studies-presenting-data/p-4-slide-shows/)
+- Problems
+    - [Lab 11](labs/CS_1_lab_11_pptx.html){target="_blank"}
+
+
+## Project presentation {#sec-13}
+
+
+
+

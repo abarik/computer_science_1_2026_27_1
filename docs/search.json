@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computer Science 1",
+    "section": "",
+    "text": "Contact\n\nYear: 2026/27/1, Semester 1\nClass Location: P/106/A, Institute of Psychology, University of Debrecen\nMeeting Times: Tuesday 10:00 - 11:40\nContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu\nRegistration table for homework assignments and grades: link to the spreadsheet",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "1  Syllabus",
+    "section": "",
+    "text": "1.1 Course overview\nCourse Number: BTPS1210BA-E\nCredits: 2\nCourse type: Practical\nYear: 2026/27/1, Semester 1 (Autumn)\nClass Location: P/106/A, Institute of Psychology, University of Debrecen\nMeeting Times: Tuesday 10:00 - 11:40\nContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu\nRegistration table for homework assignments and grades: link to the spreadsheet\nDuring the course, students will acquire the basic digital skills they will need for their studies. The course attempts to balance the knowledge levels of students with different backgrounds. At the beginning of the course, students will learn basic methods of word processing, spreadsheet and presentation design.\nThe main purpose of the course is to support statistics courses. Today, statistical analysis is carried out by computer, so knowledge of one (or more) statistical software packages is essential. The rest of the course, students will be introduced to the jamovi statistical software and will also be introduced to the use of R/RStudio. The jamovi part of the course will cover statistical processes of data entry and data preparation, descriptive analysis, and graphic analysis. In RStudio students will be able to create markdown-based documents and generate HTML documents.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "1  Syllabus",
+    "section": "1.2 Attendance",
+    "text": "1.2 Attendance\nActive participation is an important part of this class. Attendance are required. The maximum number of absences from the practical sessions is three. If the student exceeds the maximum number of absences, a practical grade will not be given and a “refused” will be entered in the electronic learning system.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#assessment",
+    "href": "syllabus.html#assessment",
+    "title": "1  Syllabus",
+    "section": "1.3 Assessment and Grades",
+    "text": "1.3 Assessment and Grades\nDuring the semester there will be 4 homework assignments and one project. In the Table 1.1 you can see the details of the homework assignments and the project. The project will be presented in the last class. The Table 1.1 also shows the deadlines for the homework assignments and the project.\n\n\n\nTable 1.1: Points and deadlines\n\n\n\n\n\nComponents\nPoints\nLinks\nDates\n\n\n\n\nHomework 1\n\nRStudio reporting: markdown\nQuarto document\n\n15\nDetails1\nOctober 15.\n\n\nHomework 2\n\nJamovi (1)\nJabRef\n\n15\nDetails2\nNovember 5.\n\n\nHomework 3\n\nJamovi (2)\n\n15\nDetails3\nNovember 26.\n\n\nHomework 4\n\nWord\nJabRef\n\n15\nDetails4\nDecember 8.\n\n\nProject final artifact\n30\nDetails5\nNovember 10. and December 6.\n\n\nProject final presentation\n10\nDetails\nDecember 8. (in the class)\n\n\nTOTAL\n100\n\n\n\n\n\n\n\n\nMany ways to earn extra points, which are added to the points shown in the Table 1.1. Extra points can be earned in the following ways:\n\nactive participation in class (up to 5 points)\nmaking and presenting a Kahoot! test (3 points each)\nwinning a Kahoot! test (3 points each)\nsending a solution of a lab\n\nLab 01\n\nProblem 1: up to 1 point (link)\nProblem 2: up to 1 point (link)\nProblem 3: up to 2 points (link)\n\nLab 02\n\nProblem 1: up to 2 points (link)\nProblem 2: up to 2 points (link)\nProblem 3: up to 3 points (link)\nProblem 4: up to 3 points (link)\n\nLab 03\n\nProblem 1: up to 2 points (link)\nProblem 2: up to 2 points (link)\nProblem 3: up to 3 points (link)\n\nLab 04\n\nProblem 1: up to 2 points (link)\nProblem 2: up to 2 points (link)\nProblem 3: up to 3 points (link)\nProblem 4: up to 3 points (link)\n\nLab 06\n\nProblem 1: up to 2 points (link)\nProblem 2: up to 2 points (link)\nProblem 3: up to 3 points (link)\nProblem 4: up to 3 points (link)\n\nLab 07\n\nProblem 1: up to 2 points (link)\nProblem 2: up to 2 points (link)\nProblem 3: up to 3 points (link)\nProblem 4: up to 3 points (link)\nProblem 5: up to 3 points (link)\nProblem 6: up to 3 points (link)\nProblem 7: up to 3 points (link)\nProblem 8: up to 3 points (link)\n\nLab 08\n\nProblem 1: up to 2 points (link)\nProblem 2: up to 2 points (link)\nProblem 3: up to 3 points (link)\nProblem 4: up to 3 points (link)\nProblem 5: up to 3 points (link)\n\nLab 09\n\nProblem 1: up to 2 points (link)\nProblem 2: up to 2 points (link)\nProblem 3: up to 3 points (link)\nProblem 4: up to 3 points (link)\n\nLab 10\n\nProblem 1: up to 4 points (link)\nProblem 2: up to 4 points (link)\n\nLab 11\n\nProblem 1: up to 4 points (link)\nProblem 2: up to 4 points (link)\n\n\n\nThe Table 1.2 shows the grading scale. A student’s final grade will be determined by the total number of points earned during the semester. The final grade will be determined as follows:\n\n\n\nTable 1.2: Grading\n\n\n\n\n\nPoints\nGrade offered\n\n\n\n\n0–50\n1 (failed)\n\n\n51–60\n2\n\n\n61–74\n3\n\n\n75–85\n4\n\n\n86–\n5\n\n\n\n\n\n\nStudents can earn a maximum of 100 points through the homework assignments and the project work, to which extra points are added.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-details",
+    "href": "syllabus.html#course-details",
+    "title": "1  Syllabus",
+    "section": "1.4 Course details",
+    "text": "1.4 Course details\n\nCourse details\n\n\nDay\nTopic\nLinks\n\n\n\n\nSept 8\nIntro\nDetails\n\n\nSept 15\nFiles, directories, compressing\nDetails\n\n\nSept 22\nRStudio reporting: markdown, Quarto document\nDetails\n\n\nSept 29\nJabRef - Bibliography management\nDetails\n\n\nOct 6\nTXT, CSV, Spreadsheets\nDetails\n\n\nOct 13\nJamovi - Introduction\nDetails\n\n\nOct 20\nAutumn break\n\n\n\nOct 27\nJamovi - Import data, Data conversion\nDetails\n\n\nNov 3\nJamovi - Data transformation\nDetails\n\n\nNov 10\nJamovi - Descriptive statistics I.\nDetails\n\n\nNov 17\nJamovi - Descriptive statistics II.\nDetails\n\n\nNov 24\nWord - Styles, TOC, Bibliography, APA7\nDetails\n\n\nDec 1\nPresentation: Power Point\nDetails\n\n\nDec 8\nProject presentation\nDetails",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#textbooks",
+    "href": "syllabus.html#textbooks",
+    "title": "1  Syllabus",
+    "section": "1.5 Textbooks",
+    "text": "1.5 Textbooks\n\nRequired:\n\nUniversity of Helsinki (2023, p. 1 Introduction, Advanced studies: presenting data)\nNavarro & Foxcroft (2022, pp. 1–117)\nPoulson (2019, Getting started, Wrangling data, Exploration)\n\nOptional texts:\n\nPajankar (2022)\nCote et al. (2021, pp. 1–77)\nGordon & Bataineh (2022, pp. 1–109)\nLanders (2024)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#software",
+    "href": "syllabus.html#software",
+    "title": "1  Syllabus",
+    "section": "1.6 Software",
+    "text": "1.6 Software\nThe course requires some software.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#prerequisites",
+    "href": "syllabus.html#prerequisites",
+    "title": "1  Syllabus",
+    "section": "1.7 Prerequisites",
+    "text": "1.7 Prerequisites\nNo prerequisite is required. Prior knowledge in computer literacy (word processing, spreadsheets, presentation) is recommended but not required.\n\n\n\n\nCote, L. R., Gordon, R., Randell, C. E., Schmitt, J., & Marvin, H. (2021). Introduction to statistics in the psychological sciences: Vol. 25. https://irl.umsl.edu/oer/25\n\n\nGordon, E. S., & Bataineh, O. (2022). Introduction to applied statistics for psychology students. https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/703/3/Introduction-to-Applied-Statistics-for-Psychology-Students-1590125696.pdf\n\n\nLanders, R. N. (2024). Data science for social scientists. https://datascience.tntlab.org/\n\n\nNavarro, D. J., & Foxcroft, D. R. (2022). Learning statistics with jamovi: A tutorial for psychology students and other beginners. Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15\n\n\nPajankar, V. D. P. (2022). Easy statistics with jamovi. Use of jamovi for beginners. SK Print House. https://www.researchgate.net/publication/368387691\n\n\nPoulson, B. (2019). Jamovi. https://datalab.cc/jamovi/\n\n\nUniversity of Helsinki. (2023). Student’s digital skills. https://blogs.helsinki.fi/students-digital-skills/",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#footnotes",
+    "href": "syllabus.html#footnotes",
+    "title": "1  Syllabus",
+    "section": "",
+    "text": "Hint: My solution of Homework 1↩︎\nHint: My solution of Homework 2↩︎\nHint: My solution of Homework 3↩︎\nHint: My solution of Homework 4↩︎\nHint: My solution of Project final artifact. My solution of The answer.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "details.html",
+    "href": "details.html",
+    "title": "2  Course details",
+    "section": "",
+    "text": "2.1 Intro",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-01",
+    "href": "details.html#sec-01",
+    "title": "2  Course details",
+    "section": "",
+    "text": "Readings:\n\nNavarro & Foxcroft (2022, pp. 3–12)\n\n\n\n\n\nSchweigert (2021) pp. 58\n\n\n\n\n\nThe course in the BA program",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-02",
+    "href": "details.html#sec-02",
+    "title": "2  Course details",
+    "section": "2.2 Files, directories, compressing",
+    "text": "2.2 Files, directories, compressing\n\nReadings:\n\nUniversity of Helsinki (2023) 1.1 Computer functionality\nUniversity of Helsinki (2023) 1.2. Using files and programs\n\nProblems\n\nLab 01\n\nQuestions\n\nWhat is the purpose of buying a computer?\nWhat problems does the computer solve?\nHow does a computer solve problems?\nWhat is the file?\nWhat is the purpose of the file?\nWhat is the directory\nWhat is the purpose of the directory?\nWhat is the structure of directories?\nWhat is packing and unpacking (or compressing and extraction)?\nWhat is the purpose of the packing?\n\nSkills\n\ncreating, renaming, coping, moving, deleting files and directories\ncompressing and extracting files and directories\ncreating file with special type (TXT, DOCX, XLSX, ODT, ODS, PDF, PPTX, PNG, JPG, OMV, BIB, etc.)\ntyping special characters (ampersand, angle brackets, apostrophe, asterisk, at sign, backslash, braces, brackets, caret, dollar sign, em dash, en dash, hyphen, backtic, tilde, parentheses, percent, pipe, slash, underscore, etc.)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-03",
+    "href": "details.html#sec-03",
+    "title": "2  Course details",
+    "section": "2.3 RStudio reporting",
+    "text": "2.3 RStudio reporting\n\nReadings:\n\nRStudio for the Total Beginner (only the first minute and a half)\nPosit Cheatsheets: RStudio IDE\nThe Markdown Guide: Getting Started, Markdown Cheat Sheet, Basic Syntax, Extended Syntax\nPosit Cheatsheets: Publish and Share with Quarto\nTutorial: Hello, Quarto\n\nProblems\n\nLab 02",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-04",
+    "href": "details.html#sec-04",
+    "title": "2  Course details",
+    "section": "2.4 JabRef - Bibliography management",
+    "text": "2.4 JabRef - Bibliography management\n\nReadings:\n\nJabRef: Getting started\nQuarto: Citations & Footnotes\n\nProblems\n\nLab 03",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-05",
+    "href": "details.html#sec-05",
+    "title": "2  Course details",
+    "section": "2.5 TXT, CSV, Spreadsheets",
+    "text": "2.5 TXT, CSV, Spreadsheets\n\nReadings:\n\nWhat is Tabular Data?\nUniversity of Helsinki (2023) P.3 Spreadsheets\n\nProblems\n\nLab 04",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-06",
+    "href": "details.html#sec-06",
+    "title": "2  Course details",
+    "section": "2.6 Jamovi - Introduction",
+    "text": "2.6 Jamovi - Introduction\n\nReadings:\n\nNavarro & Foxcroft (2022, pp. 43–49)\nPoulson (2019)\n\nWelcome\nInstalling jamovi\nNavigating jamovi\n\n\nProblems\n\nLab 05",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-07",
+    "href": "details.html#sec-07",
+    "title": "2  Course details",
+    "section": "2.7 Jamovi - Import data, Data conversion",
+    "text": "2.7 Jamovi - Import data, Data conversion\n\nReadings:\n\nNavarro & Foxcroft (2022, pp. 49–54)\nPoulson (2019)\n\nSample data\njamovi modules\nEntering data\nImporting data\nVariable types & labels\n\n\nProblems\n\nLab 06",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-08",
+    "href": "details.html#sec-08",
+    "title": "2  Course details",
+    "section": "2.8 Jamovi - Data transformation",
+    "text": "2.8 Jamovi - Data transformation\n\nReadings:\n\nNavarro & Foxcroft (2022, pp. 97–117)\nPoulson (2019)\n\nWrangling data: chapter overview\nComputing means\nComputing z-scores\nTransforming scores to categories\nFiltering cases\n\n\nProblems\n\nLab 07",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-09",
+    "href": "details.html#sec-09",
+    "title": "2  Course details",
+    "section": "2.9 Jamovi - Descriptive statistics I.",
+    "text": "2.9 Jamovi - Descriptive statistics I.\n\nReadings:\n\nNavarro & Foxcroft (2022, pp. 59–84)\nPoulson (2019)\n\nExploration: chapter overview\nDescriptive statistics\n\n\nProblems\n\nLab 08",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-10",
+    "href": "details.html#sec-10",
+    "title": "2  Course details",
+    "section": "2.10 Jamovi - Descriptive statistics II.",
+    "text": "2.10 Jamovi - Descriptive statistics II.\n\nReadings:\n\nNavarro & Foxcroft (2022, pp. 85–96)\nPoulson (2019)\n\nHistograms\nDensity plots\nBox plots\nViolin plots\nDot plots\nBar plots\nExporting tables & plots\n\n\nProblems\n\nLab 09",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-11",
+    "href": "details.html#sec-11",
+    "title": "2  Course details",
+    "section": "2.11 Word processing - Styles, TOC, Bibliography, APA7",
+    "text": "2.11 Word processing - Styles, TOC, Bibliography, APA7\n\nReadings:\n\nUniversity of Helsinki (2023) P.2 Word processing\nStudy skills: APA7\nCitation: About APA 7th ed.\n\nProblems\n\nLab 10",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-12",
+    "href": "details.html#sec-12",
+    "title": "2  Course details",
+    "section": "2.12 Presentation: PowerPoint",
+    "text": "2.12 Presentation: PowerPoint\n\nReadings:\n\nUniversity of Helsinki (2023) P.4 Slide shows\n\nProblems\n\nLab 11",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-13",
+    "href": "details.html#sec-13",
+    "title": "2  Course details",
+    "section": "2.13 Project presentation",
+    "text": "2.13 Project presentation\n\n\n\n\nNavarro, D. J., & Foxcroft, D. R. (2022). Learning statistics with jamovi: A tutorial for psychology students and other beginners. Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15\n\n\nPoulson, B. (2019). Jamovi. https://datalab.cc/jamovi/\n\n\nSchweigert, W. A. S. (2021). Research methods in psychology: A handbook (Fourth Edition). Waveland Press.\n\n\nUniversity of Helsinki. (2023). Student’s digital skills. https://blogs.helsinki.fi/students-digital-skills/",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "3  Software",
+    "section": "",
+    "text": "Please install the following software on your computer:\n\nJamovi [Available from url: https://www.jamovi.org/download.html. Choose the current version.]\nR [Available from url: https://cloud.r-project.org/.]\nRStudio [Available from url: https://posit.co/download/rstudio-desktop/. Choose the free RStudio Desktop.]\nJabRef [Available from url: https://www.jabref.org/#download.]\nMendeley Desktop [Available from url: https://www.mendeley.com/download-reference-manager. Mendeley Desktop is an alternative to the JabRef. We won’t use it in the course, but it’s a good reference manager.]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Software</span>"
+    ]
+  },
+  {
+    "objectID": "academic_calendar.html",
+    "href": "academic_calendar.html",
+    "title": "4  Schedule of the Academic Year",
+    "section": "",
+    "text": "I. (AUTUMN) SEMESTER\nThe academic year in Hungary starts in September and is built up of two semesters: autumn and spring semesters. Both semesters start with a registration period which is followed by the study period and an examination period afterwards. Details in Hungarian.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule of the Academic Year</span>"
+    ]
+  },
+  {
+    "objectID": "academic_calendar.html#i.-autumn-semester",
+    "href": "academic_calendar.html#i.-autumn-semester",
+    "title": "4  Schedule of the Academic Year",
+    "section": "",
+    "text": "Free course registration and withdrawal period: 31 August, 2026 (Monday), 8:00 – 20 September, 2026 (Sunday), 23:59 (3 weeks)\n\nNon-graduating students may register for courses from 13:00 on 1 September, 2026.\n\nRegistration week: 31 August – 4 September, 2026 (1 week)\nPart-time education begins on 3 September, 2026 (Thursday).\nStudy period:\n\nNon-graduating students: 7 September – 11 December, 2026 (13 weeks)\nGraduating students completing their studies in January 2027: 7 September – 27 November, 2026 (11 weeks)\n\nAutumn break: 19 – 22 October, 2026 (1 week)\nExamination period:\n\nNon-graduating students: 14 December, 2026 – 29 January, 2027 (7 weeks)\nFinal examination period for graduating students completing their studies in January 2027: 28 December, 2026 – 15 January, 2027 (3 weeks)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule of the Academic Year</span>"
+    ]
+  },
+  {
+    "objectID": "academic_calendar.html#ii.-spring-semester",
+    "href": "academic_calendar.html#ii.-spring-semester",
+    "title": "4  Schedule of the Academic Year",
+    "section": "II. (SPRING) SEMESTER",
+    "text": "II. (SPRING) SEMESTER\n\nRegistration week: 1 – 5 February, 2027 (1 week)\nStudy period for non-graduating students: 8 February – 14 May, 2027 (13 weeks)\nSpring break: 30 March – 2 April, 2027 (1 week)\nExamination period for non-graduating students: 18 May – 2 July, 2027 (7 weeks)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule of the Academic Year</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Cote, L. R., Gordon, R., Randell, C. E., Schmitt, J., & Marvin, H.\n(2021). Introduction to statistics in the psychological sciences:\nVol. 25. https://irl.umsl.edu/oer/25\n\n\nGordon, E. S., & Bataineh, O. (2022). Introduction to applied\nstatistics for psychology students. https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/703/3/Introduction-to-Applied-Statistics-for-Psychology-Students-1590125696.pdf\n\n\nLanders, R. N. (2024). Data science for social scientists. https://datascience.tntlab.org/\n\n\nNavarro, D. J., & Foxcroft, D. R. (2022). Learning statistics\nwith jamovi: A tutorial for psychology students and other\nbeginners. Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15\n\n\nPajankar, V. D. P. (2022). Easy statistics with jamovi. Use of\njamovi for beginners. SK Print House. https://www.researchgate.net/publication/368387691\n\n\nPoulson, B. (2019). Jamovi. https://datalab.cc/jamovi/\n\n\nSchweigert, W. A. S. (2021). Research methods in psychology: A\nhandbook (Fourth Edition). Waveland Press.\n\n\nUniversity of Helsinki. (2023). Student’s digital skills. https://blogs.helsinki.fi/students-digital-skills/",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

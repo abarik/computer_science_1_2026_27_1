@@ -1,0 +1,16 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Software
+
+Please install the following software on your computer:
+
+- **Jamovi** [Available from url: [https://www.jamovi.org/download.html](https://www.jamovi.org/download.html). Choose the *current* version.]
+- **R** [Available from url: [https://cloud.r-project.org/](https://cloud.r-project.org/).]
+- **RStudio** [Available from url: [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/). Choose the free *RStudio Desktop*.]
+- **JabRef** [Available from url: [https://www.jabref.org/#download](https://www.jabref.org/#download).]
+- **Mendeley Desktop** [Available from url: [https://www.mendeley.com/download-reference-manager](https://www.mendeley.com/download-reference-manager). *Mendeley Desktop* is an alternative to the *JabRef*. We won't use it in the course, but it's a good reference manager.]
+
