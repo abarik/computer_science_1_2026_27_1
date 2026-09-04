@@ -9,7 +9,6 @@ bibliography: references.bib
 **Course type**: Practical\
 **Year**: 2026/27/1, Semester 1 (Autumn)\
 **Class Location**: P/106/A, Institute of Psychology, University of Debrecen\
-**Meeting Times**: Tuesday 10:00 - 11:40\
 **Contact Information**: Please contact me through email anytime: [abari.kalman\@arts.unideb.hu](mailto:abari.kalman@arts.unideb.hu){.email}  
 **Registration table for homework assignments and grades**: [link to the spreadsheet](https://docs.google.com/spreadsheets/d/1fvavHT1sqkiopfs7TKpzF_A14VLqACSuq8lrilaZ1H0/edit?usp=sharing)
 
