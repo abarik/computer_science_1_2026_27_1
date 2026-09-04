@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Computer Science 1",
     "section": "",
-    "text": "Contact\n\nYear: 2026/27/1, Semester 1\nClass Location: P/106/A, Institute of Psychology, University of Debrecen\nContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu\nRegistration table for homework assignments and grades: link to the spreadsheet",
+    "text": "Contact\n\nYear: 2026/27/1, Semester 1\nClass Location: P/106/A, Institute of Psychology, University of Debrecen\nContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu",
     "crumbs": [
       "Contact"
     ]
@@ -14,7 +14,7 @@
     "href": "syllabus.html",
     "title": "1  Syllabus",
     "section": "",
-    "text": "1.1 Course overview\nCourse Number: BTPS1210BA-E\nCredits: 2\nCourse type: Practical\nYear: 2026/27/1, Semester 1 (Autumn)\nClass Location: P/106/A, Institute of Psychology, University of Debrecen\nContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu\nRegistration table for homework assignments and grades: link to the spreadsheet\nDuring the course, students will acquire the basic digital skills they will need for their studies. The course attempts to balance the knowledge levels of students with different backgrounds. At the beginning of the course, students will learn basic methods of word processing, spreadsheet and presentation design.\nThe main purpose of the course is to support statistics courses. Today, statistical analysis is carried out by computer, so knowledge of one (or more) statistical software packages is essential. The rest of the course, students will be introduced to the jamovi statistical software and will also be introduced to the use of R/RStudio. The jamovi part of the course will cover statistical processes of data entry and data preparation, descriptive analysis, and graphic analysis. In RStudio students will be able to create markdown-based documents and generate HTML documents.",
+    "text": "1.1 Course overview\nCourse Number: BTPS1210BA-E\nCredits: 2\nCourse type: Practical\nYear: 2026/27/1, Semester 1 (Autumn)\nClass Location: P/106/A, Institute of Psychology, University of Debrecen\nContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu\nDuring the course, students will acquire the basic digital skills they will need for their studies. The course attempts to balance the knowledge levels of students with different backgrounds. At the beginning of the course, students will learn basic methods of word processing, spreadsheet and presentation design.\nThe main purpose of the course is to support statistics courses. Today, statistical analysis is carried out by computer, so knowledge of one (or more) statistical software packages is essential. The rest of the course, students will be introduced to the jamovi statistical software and will also be introduced to the use of R/RStudio. The jamovi part of the course will cover statistical processes of data entry and data preparation, descriptive analysis, and graphic analysis. In RStudio students will be able to create markdown-based documents and generate HTML documents.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
