@@ -1,8 +1,32 @@
-.Rproj.user
+# R / RStudio session state and local configuration
+.Rproj.user/
 .Rhistory
+.Rapp.history
 .RData
 .Ruserdata
+.Renviron
 
+# Quarto and knitr temporary files / caches
 /.quarto/
+*.quarto_ipynb
+*_cache/
 
-**/*.quarto_ipynb
+# Keep docs/ tracked: it contains the published course book.
+# Keep course assets (HTML, PDF, Office documents, ZIP files) tracked.
+
+# Local environment variables (allow a shareable example)
+.env
+.env.*
+!.env.example
+
+# Operating system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor backups and Office lock files
+*.swp
+*.swo
+*~
+~$*
