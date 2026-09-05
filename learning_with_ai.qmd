@@ -4,26 +4,22 @@ editor:
     wrap: 72
 ---
 
-# Learning with AI: Gemini Notebooks and NotebookLM
+# Learning with AI: Gemini Notebook
 
-## What is NotebookLM?
+## What is Gemini Notebook?
 
-[Google NotebookLM](https://notebooklm.google.com/) is an AI-powered
-research and learning assistant built with Gemini models. A notebook is a
+[Gemini Notebook](https://notebooklm.google/) (formerly NotebookLM) is
+Google's AI-powered research and learning assistant. A notebook is a
 workspace containing the sources you choose. You can ask questions about
 those sources and turn them into study materials such as summaries, study
 guides, mind maps, flashcards, quizzes, and Audio Overviews.
 
-NotebookLM notebooks may also be available from Gemini, depending on your
-account and region. There is an important difference between the two ways
-of using them: NotebookLM answers are grounded in the selected notebook
-sources, while Gemini may also use web search and other tools. This chapter
-therefore focuses on NotebookLM when the goal is to study the material in
-this course. See Google's explanation of the
-[NotebookLM--Gemini integration](https://support.google.com/notebooklm/answer/17003757).
+For this course, build your notebook from the learning materials linked
+from the HTML course book. Select the relevant sources and ask for answers
+with citations so you can check the explanations against those materials.
 
 Source grounding makes an answer easier to check, but it does not make the
-answer automatically correct. NotebookLM can misunderstand a source,
+answer automatically correct. Gemini Notebook can misunderstand a source,
 overlook a detail, or produce an inaccurate explanation. Use it as a study
 partner, not as an authority.
 
@@ -37,21 +33,21 @@ the cited part of the original course material before relying on an answer.
 
 ## What you need
 
-To use NotebookLM for this course, you need:
+To use Gemini Notebook for this course, you need:
 
 - a personal Google Account or a university-managed Google Account;
-- access to NotebookLM enabled for that account;
+- access to Gemini Notebook enabled for that account;
 - a supported web browser and an internet connection;
 - the course materials you want to study; and
 - enough time to verify AI-generated answers against the original sources.
 
-If you use a university-managed account and cannot open NotebookLM, access
+If you use a university-managed account and cannot open Gemini Notebook, access
 may need to be enabled by the institution's administrator. Availability
 and individual features can also depend on age, account type, region, and
 subscription. Check the current requirements in the
-[official NotebookLM help](https://support.google.com/notebooklm/answer/16164461).
+[official Gemini Notebook help](https://support.google.com/notebooklm/answer/16164461).
 
-NotebookLM accepts sources including PDF, Markdown, Word, PowerPoint, CSV,
+Gemini Notebook accepts sources including PDF, Markdown, Word, PowerPoint, CSV,
 images, pasted text, Google Docs, Google Slides, Google Sheets, web pages,
 public YouTube videos with captions, and audio files. The supported types
 and limits may change; the current list is available in the guide to
@@ -84,27 +80,36 @@ create smaller notebooks for major topics, such as:
 Smaller notebooks make it easier to select the relevant sources and reduce
 the chance that unrelated material influences an answer.
 
-### 2. Add the main book
+### 2. Add the learning materials linked from the HTML book
 
-The simplest starting point is the [PDF version of this
-book](Computer-Science-1.pdf). Download it and add it as a PDF source. It
-contains the course overview, syllabus, software information, academic
-calendar, and the main book chapters.
-
-The laboratory and assignment pages are separate HTML documents and are
-not all contained in the book PDF. Add the pages needed for the topic you
-are studying. You can open a page from the syllabus or course schedule,
-copy its web address, and add that URL as a source. For example, a notebook
-about data transformation could include:
+Open the [syllabus](syllabus.qmd) in the HTML course book and follow the
+links for the topic you want to study. Add the actual learning materials
+at those destinations: laboratory explanations, practical tutorials, and
+relevant assignment instructions. For example, a notebook about data
+transformation could include:
 
 - [Lab 06: Exploring Data](labs/CS_1_lab_06_jamovi_2.html);
 - [Lab 07: Transforming Data](labs/CS_1_lab_07_jamovi_3.html); and
 - [Homework 3](homework/homework_3.html).
 
-When a web page is added by URL, NotebookLM normally imports the text of
-that page, not every page linked from it. Images and embedded content may
-also be omitted. Add each important page separately, or save it as a PDF
-and upload the PDF when visual details are essential.
+For each material:
+
+1. Open its link in the published HTML book.
+2. Copy the full web address of the destination page from your browser.
+3. Open [Gemini Notebook](https://notebooklm.google/), choose the option to
+   add a website source, and paste that address.
+4. Check the imported source to confirm that the relevant explanation or
+   exercise is present and readable.
+
+If a lab links to another tutorial or reference you need, open that link
+and add the destination as a separate source too. Adding the book's home
+page or syllabus does not automatically import the materials linked from
+it. Use the HTML book as a guide to finding the sources for each topic.
+
+Web imports may omit images or embedded content. Keep the original page
+open when studying screenshots, diagrams, or software instructions. If a
+page cannot be imported, copy the relevant text into a source when you
+have permission to do so, and include its title and original URL.
 
 ### 3. Name and organise the sources
 
@@ -116,7 +121,7 @@ want a focused answer.
 If the course book or a laboratory page changes, update the source. A web
 page or uploaded local file is generally a snapshot of its content at the
 time it was added. Google Drive sources can offer synchronisation, but you
-should still verify that NotebookLM is using the latest version.
+should still verify that Gemini Notebook is using the latest version.
 
 ## A reliable learning workflow
 
@@ -127,11 +132,11 @@ Use the following cycle for each topic:
 2. **Read.** Study the relevant section of the book or lab yourself.
 3. **Retrieve.** Close the source and explain the topic from memory, or
    answer questions without assistance.
-4. **Check.** Ask NotebookLM to compare your explanation with the selected
+4. **Check.** Ask Gemini Notebook to compare your explanation with the selected
    sources and identify omissions or misconceptions.
 5. **Apply.** Complete a new task in RStudio, jamovi, Word, a spreadsheet,
    or PowerPoint without copying an AI-generated final answer.
-6. **Verify.** Follow NotebookLM's citations back to the course material
+6. **Verify.** Follow Gemini Notebook's citations back to the course material
    and confirm every important claim or procedural step.
 7. **Reflect.** Record what you can now do independently and what still
    needs practice.
@@ -145,7 +150,7 @@ A good prompt specifies five things:
 
 1. **Role:** what kind of help you want;
 2. **Sources:** which selected materials should be used;
-3. **Task:** what NotebookLM should do;
+3. **Task:** what Gemini Notebook should do;
 4. **Output:** the desired structure and level; and
 5. **Verification:** how claims should be linked to the sources.
 
@@ -174,7 +179,7 @@ Specific prompts usually produce more useful results than requests such as
 > starting a new Quarto project and rendering an HTML document. For each
 > step, explain why it is necessary and cite the relevant passage.
 
-If a render fails, do not ask NotebookLM merely to “fix it.” Paste the
+If a render fails, do not ask Gemini Notebook merely to “fix it.” Paste the
 exact error message after removing personal paths or data, and ask:
 
 > Based only on the selected course sources, list the three most likely
@@ -225,11 +230,11 @@ structure and formative feedback.
 
 Always confirm deadlines directly in the current [syllabus](syllabus.qmd)
 and [academic calendar](academic_calendar.qmd). Do not rely on an older
-NotebookLM source or chat response for date-sensitive information.
+Gemini Notebook source or chat response for date-sensitive information.
 
 ## Study materials in the Studio panel
 
-NotebookLM can transform selected sources into several kinds of learning
+Gemini Notebook can transform selected sources into several kinds of learning
 materials. Availability may vary by account.
 
 | Tool | A productive use in this course | What to check |
@@ -281,7 +286,7 @@ source and inform the instructor if the source itself appears inconsistent.
 
 ## Academic integrity
 
-NotebookLM may help you understand instructions, practise skills, generate
+Gemini Notebook may help you understand instructions, practise skills, generate
 self-test questions, review your reasoning, and find relevant passages. It
 should not complete assessed work on your behalf.
 
@@ -316,8 +321,8 @@ include another practical attempt rather than another summary.
 
 ## Final perspective
 
-The most valuable feature of a Gemini-powered notebook is not that it can
-produce a quick answer. Its value is that it can turn the course book into
+The most valuable feature of Gemini Notebook is not that it can
+produce a quick answer. Its value is that it can turn the linked course materials into
 an interactive learning environment: it can ask questions, connect ideas,
 adapt explanations, and guide you back to the relevant source. Used well,
 it shortens the distance between reading and practice while keeping the
