@@ -13,13 +13,13 @@ bibliography: references.bib
 
 ## Course overview
 
-During the course, students will acquire the basic digital skills they will need for their studies. The course attempts to balance the knowledge levels of students with different backgrounds. At the beginning of the course, students will learn basic methods of word processing, spreadsheet and presentation design.
+During the course, students will acquire the basic digital skills they will need for their studies. The course attempts to balance the knowledge levels of students with different backgrounds. Topics include file management, reproducible reporting with RStudio and Quarto, bibliography management, statistical data analysis, spreadsheets, word processing, and presentation design.
 
-The main purpose of the course is to support statistics courses. Today, statistical analysis is carried out by computer, so knowledge of one (or more) statistical software packages is essential. The rest of the course, students will be introduced to the *jamovi* statistical software and will also be introduced to the use of *R/RStudio*. The *jamovi* part of the course will cover statistical processes of data entry and data preparation, descriptive analysis, and graphic analysis. In *RStudio* students will be able to create markdown-based documents and generate HTML documents.
+The main purpose of the course is to support statistics courses. Today, statistical analysis is carried out by computer, so knowledge of one or more statistical software packages is essential. Students will be introduced to the *jamovi* statistical software and to *R/RStudio*. The *jamovi* part of the course will cover data entry and preparation, descriptive analysis, and graphical analysis. In *RStudio*, students will learn to create Markdown-based documents and generate HTML output.
 
 ## Attendance
 
-Active participation is an important part of this class. Attendance are required. The maximum number of absences from the practical sessions is three. If the student exceeds the maximum number of absences, a practical grade will not be given and a "refused" will be entered in the electronic learning system.
+Active participation is an important part of this class. Attendance is required. Students may miss no more than three practical sessions. If a student exceeds the maximum number of absences, a practical grade will not be given and a "refused" will be entered in the electronic learning system.
 
 ## Assessment and Grades {#assessment}
 
@@ -69,7 +69,7 @@ During the semester there will be 4 homework assignments and one project. In the
 
 [^syllabus-5]: Hint: [My solution of Project final artifact](homework/pfa_XYZ123_example.html). [My solution of The answer](homework/pfa_XYZ123_example.pptx).
 
-Many ways to earn **extra points**, which are added to the points shown in the @tbl-pd. Extra points can be earned in the following ways:
+There are many ways to earn **extra points**, which are added to the points shown in @tbl-pd. Extra points can be earned in the following ways:
 
 - active participation in class (up to 5 points)
 - making and presenting a Kahoot! test (3 points each)
@@ -104,6 +104,11 @@ Many ways to earn **extra points**, which are added to the points shown in the @
         - Problem 3: up to 3 points ([link](labs/CS_1_lab_04_data.html#sec-problem-3))
         - Problem 4: up to 3 points ([link](labs/CS_1_lab_04_data.html#sec-problem-4))
     
+    - Lab 05
+
+        - Problem 1: up to 2 points ([link](labs/CS_1_lab_05_jamovi_1.html#sec-problem-1))
+        - Problem 2: up to 2 points ([link](labs/CS_1_lab_05_jamovi_1.html#sec-problem-2))
+
     
     - Lab 06
     

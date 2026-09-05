@@ -13,5 +13,5 @@ Please install the following software on your computer:
 - **RStudio** [Available from url: [https://posit.co/downloads/](https://posit.co/downloads/). Choose the free *RStudio Desktop*.]
 - **JabRef** [Available from url: [https://www.jabref.org/#download](https://www.jabref.org/#download).]
 - **Zotero** [Available from url: [https://www.zotero.org/downloads](https://www.zotero.org/downloads). *Zotero* is an alternative to *JabRef*.]
-- **Mendeley Desktop** [Available from url: [https://www.mendeley.com/download-reference-manager](https://www.mendeley.com/download-reference-manager). *Mendeley Desktop* is an alternative to the *JabRef*. We won't use it in the course, but it's a good reference manager.]
+- **Mendeley Desktop** [Available from url: [https://www.mendeley.com/download-reference-manager](https://www.mendeley.com/download-reference-manager). *Mendeley Desktop* is an alternative to *JabRef*. We won't use it in the course, but it's a good reference manager.]
 

@@ -23,18 +23,18 @@
     - What is the purpose of buying a computer?
     - What problems does the computer solve?
     -	How does a computer solve problems?
-    - What is the file?
+    - What is a file?
     - What is the purpose of the file?
-    - What is the directory
+    - What is a directory?
     - What is the purpose of the directory?
     - What is the structure of directories?
-    - What is packing and unpacking (or compressing and extraction)?
-    - What is the purpose of the packing?
+    - What are packing and unpacking (or compression and extraction)?
+    - What is the purpose of compression?
 - Skills
-    - creating, renaming, coping, moving, deleting files and directories
+    - creating, renaming, copying, moving, and deleting files and directories
     - compressing and extracting files and directories
-    - creating file with special type (TXT, DOCX, XLSX, ODT, ODS, PDF, PPTX, PNG, JPG, OMV, BIB, etc.)
-    - typing special characters (ampersand, angle brackets, apostrophe, asterisk, at sign, backslash, braces, brackets, caret, dollar sign, em dash, en dash, hyphen, backtic, tilde, parentheses, percent, pipe, slash, underscore, etc.)
+    - creating a file of a specific type (TXT, DOCX, XLSX, ODT, ODS, PDF, PPTX, PNG, JPG, OMV, BIB, etc.)
+    - typing special characters (ampersand, angle brackets, apostrophe, asterisk, at sign, backslash, braces, brackets, caret, dollar sign, em dash, en dash, hyphen, backtick, tilde, parentheses, percent, pipe, slash, underscore, etc.)
     
     
 
