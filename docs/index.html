@@ -75,9 +75,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating course-home fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -86,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Contact</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -114,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Contact</span></a>
+ <span class="menu-text">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -158,15 +159,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#contact" id="toc-contact" class="nav-link active" data-scroll-target="#contact">Contact</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -216,9 +209,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-
+<p><img src="cover.jpg" title="Computer Science 1" class="quarto-cover-image nolightbox img-fluid"></p>
+<div class="course-intro">
+<div class="course-eyebrow">
+<p>PSYCHOLOGY · DIGITAL SKILLS · 2026/27</p>
+</div>
+<section id="practical-skills.-confident-research." class="level2 unnumbered unlisted">
+<h2 class="unnumbered unlisted anchored" data-anchor-id="practical-skills.-confident-research.">Practical skills. Confident research.</h2>
+<p>Build the digital toolkit for your psychology studies. Work with data, organise your sources, and turn your ideas into clear reports and presentations — one practical task at a time.</p>
+<p><a href="./details.html" class="course-button">Explore the course</a> <a href="./syllabus.html" class="course-secondary">View the syllabus →</a></p>
+</section>
+</div>
+<div class="course-section-label">
+<p>YOUR NEXT STEP</p>
+</div>
+<div class="course-cards">
+<section id="get-ready" class="level3 unnumbered unlisted course-card">
+<h3 class="unnumbered unlisted anchored" data-anchor-id="get-ready">Get ready</h3>
+<p>Set up the software you will use in class, from RStudio to jamovi.</p>
+<p><a href="./software.html">Set up your tools →</a></p>
+</section>
+<section id="learn-by-doing" class="level3 unnumbered unlisted course-card">
+<h3 class="unnumbered unlisted anchored" data-anchor-id="learn-by-doing">Learn by doing</h3>
+<p>Find topic readings, lab exercises, and the skills to practise each week.</p>
+<p><a href="./details.html">Browse learning materials →</a></p>
+</section>
+<section id="stay-on-track" class="level3 unnumbered unlisted course-card">
+<h3 class="unnumbered unlisted anchored" data-anchor-id="stay-on-track">Stay on track</h3>
+<p>Check the homework requirements, assessment criteria, and deadlines.</p>
+<p><a href="./syllabus.html#assessment">Plan your coursework →</a></p>
+</section>
+</div>
+<div class="course-study-note">
+<p><strong>Make your study time count.</strong> Use Gemini Notebook to explore the course materials, test your understanding, and practise independently. <a href="./learning_with_ai.html">Read the AI study guide →</a></p>
+</div>
 <section id="contact" class="level1 unnumbered">
-<h1 class="unnumbered">Contact</h1><p><img src="cover.jpg" title="Computer Science 1" class="quarto-cover-image nolightbox img-fluid"></p>
+<h1 class="unnumbered">Contact</h1>
 <ul>
 <li><strong>Year</strong>: 2026/27/1, Semester 1</li>
 <li><strong>Class Location</strong>: P/106/A, Institute of Psychology, University of Debrecen</li>
@@ -316,6 +342,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

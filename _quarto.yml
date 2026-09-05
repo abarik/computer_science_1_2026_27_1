@@ -15,7 +15,8 @@ book:
   doi: "BTPS1210BA-E"
   date: today
   chapters:
-    - index.qmd
+    - file: index.qmd
+      text: Welcome
     - syllabus.qmd
     - details.qmd
     - software.qmd
@@ -33,6 +34,9 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    css: styles.css
+    toc-title: On this page
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
 

@@ -1,3 +1,60 @@
+---
+body-classes: course-home
+---
+
+::: {.content-visible when-format="html"}
+::: {.course-intro}
+::: {.course-eyebrow}
+PSYCHOLOGY · DIGITAL SKILLS · 2026/27
+:::
+
+## Practical skills. Confident research. {.unnumbered .unlisted}
+
+Build the digital toolkit for your psychology studies. Work with data,
+organise your sources, and turn your ideas into clear reports and
+presentations — one practical task at a time.
+
+[Explore the course](details.qmd){.course-button}
+[View the syllabus →](syllabus.qmd){.course-secondary}
+:::
+
+::: {.course-section-label}
+YOUR NEXT STEP
+:::
+
+::: {.course-cards}
+::: {.course-card}
+### Get ready {.unnumbered .unlisted}
+
+Set up the software you will use in class, from RStudio to jamovi.
+
+[Set up your tools →](software.qmd)
+:::
+
+::: {.course-card}
+### Learn by doing {.unnumbered .unlisted}
+
+Find topic readings, lab exercises, and the skills to practise each week.
+
+[Browse learning materials →](details.qmd)
+:::
+
+::: {.course-card}
+### Stay on track {.unnumbered .unlisted}
+
+Check the homework requirements, assessment criteria, and deadlines.
+
+[Plan your coursework →](syllabus.qmd#assessment)
+:::
+:::
+
+::: {.course-study-note}
+**Make your study time count.** Use Gemini Notebook to explore the course
+materials, test your understanding, and practise independently.
+[Read the AI study guide →](learning_with_ai.qmd)
+:::
+:::
+
 # Contact {.unnumbered}
 
 - **Year**: 2026/27/1, Semester 1 
