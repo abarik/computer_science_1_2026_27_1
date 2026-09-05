@@ -22,6 +22,7 @@ book:
     # - terms.qmd
     - academic_calendar.qmd
     #- learning_objectives.qmd
+    - learning_with_ai.qmd
     - references.qmd
 
   cover-image: cover.jpg

@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5&nbsp; Learning with AI: Gemini Notebooks and NotebookLM – Computer Science 1</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<link href="./academic_calendar.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./learning_with_ai.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Learning with AI: Gemini Notebooks and NotebookLM</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Computer Science 1</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syllabus</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./details.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Course details</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./software.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Software</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./academic_calendar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Schedule of the Academic Year</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./learning_with_ai.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Learning with AI: Gemini Notebooks and NotebookLM</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-notebooklm" id="toc-what-is-notebooklm" class="nav-link active" data-scroll-target="#what-is-notebooklm"><span class="header-section-number">5.1</span> What is NotebookLM?</a></li>
+  <li><a href="#what-you-need" id="toc-what-you-need" class="nav-link" data-scroll-target="#what-you-need"><span class="header-section-number">5.2</span> What you need</a></li>
+  <li><a href="#create-a-course-notebook" id="toc-create-a-course-notebook" class="nav-link" data-scroll-target="#create-a-course-notebook"><span class="header-section-number">5.3</span> Create a course notebook</a>
+  <ul class="collapse">
+  <li><a href="#choose-a-useful-scope" id="toc-choose-a-useful-scope" class="nav-link" data-scroll-target="#choose-a-useful-scope"><span class="header-section-number">5.3.1</span> 1. Choose a useful scope</a></li>
+  <li><a href="#add-the-main-book" id="toc-add-the-main-book" class="nav-link" data-scroll-target="#add-the-main-book"><span class="header-section-number">5.3.2</span> 2. Add the main book</a></li>
+  <li><a href="#name-and-organise-the-sources" id="toc-name-and-organise-the-sources" class="nav-link" data-scroll-target="#name-and-organise-the-sources"><span class="header-section-number">5.3.3</span> 3. Name and organise the sources</a></li>
+  </ul></li>
+  <li><a href="#a-reliable-learning-workflow" id="toc-a-reliable-learning-workflow" class="nav-link" data-scroll-target="#a-reliable-learning-workflow"><span class="header-section-number">5.4</span> A reliable learning workflow</a></li>
+  <li><a href="#how-to-write-useful-prompts" id="toc-how-to-write-useful-prompts" class="nav-link" data-scroll-target="#how-to-write-useful-prompts"><span class="header-section-number">5.5</span> How to write useful prompts</a></li>
+  <li><a href="#examples-for-this-course" id="toc-examples-for-this-course" class="nav-link" data-scroll-target="#examples-for-this-course"><span class="header-section-number">5.6</span> Examples for this course</a>
+  <ul class="collapse">
+  <li><a href="#understand-a-new-topic" id="toc-understand-a-new-topic" class="nav-link" data-scroll-target="#understand-a-new-topic"><span class="header-section-number">5.6.1</span> Understand a new topic</a></li>
+  <li><a href="#learn-rstudio-and-quarto" id="toc-learn-rstudio-and-quarto" class="nav-link" data-scroll-target="#learn-rstudio-and-quarto"><span class="header-section-number">5.6.2</span> Learn RStudio and Quarto</a></li>
+  <li><a href="#practise-data-concepts-and-jamovi" id="toc-practise-data-concepts-and-jamovi" class="nav-link" data-scroll-target="#practise-data-concepts-and-jamovi"><span class="header-section-number">5.6.3</span> Practise data concepts and jamovi</a></li>
+  <li><a href="#prepare-for-a-homework-assignment" id="toc-prepare-for-a-homework-assignment" class="nav-link" data-scroll-target="#prepare-for-a-homework-assignment"><span class="header-section-number">5.6.4</span> Prepare for a homework assignment</a></li>
+  <li><a href="#improve-bibliography-management" id="toc-improve-bibliography-management" class="nav-link" data-scroll-target="#improve-bibliography-management"><span class="header-section-number">5.6.5</span> Improve bibliography management</a></li>
+  <li><a href="#prepare-a-presentation" id="toc-prepare-a-presentation" class="nav-link" data-scroll-target="#prepare-a-presentation"><span class="header-section-number">5.6.6</span> Prepare a presentation</a></li>
+  <li><a href="#plan-study-time" id="toc-plan-study-time" class="nav-link" data-scroll-target="#plan-study-time"><span class="header-section-number">5.6.7</span> Plan study time</a></li>
+  </ul></li>
+  <li><a href="#study-materials-in-the-studio-panel" id="toc-study-materials-in-the-studio-panel" class="nav-link" data-scroll-target="#study-materials-in-the-studio-panel"><span class="header-section-number">5.7</span> Study materials in the Studio panel</a></li>
+  <li><a href="#how-to-evaluate-an-ai-answer" id="toc-how-to-evaluate-an-ai-answer" class="nav-link" data-scroll-target="#how-to-evaluate-an-ai-answer"><span class="header-section-number">5.8</span> How to evaluate an AI answer</a></li>
+  <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity"><span class="header-section-number">5.9</span> Academic integrity</a></li>
+  <li><a href="#a-30-minute-study-session" id="toc-a-30-minute-study-session" class="nav-link" data-scroll-target="#a-30-minute-study-session"><span class="header-section-number">5.10</span> A 30-minute study session</a></li>
+  <li><a href="#final-perspective" id="toc-final-perspective" class="nav-link" data-scroll-target="#final-perspective"><span class="header-section-number">5.11</span> Final perspective</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Learning with AI: Gemini Notebooks and NotebookLM</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-is-notebooklm" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="what-is-notebooklm"><span class="header-section-number">5.1</span> What is NotebookLM?</h2>
+<p><a href="https://notebooklm.google.com/">Google NotebookLM</a> is an AI-powered research and learning assistant built with Gemini models. A notebook is a workspace containing the sources you choose. You can ask questions about those sources and turn them into study materials such as summaries, study guides, mind maps, flashcards, quizzes, and Audio Overviews.</p>
+<p>NotebookLM notebooks may also be available from Gemini, depending on your account and region. There is an important difference between the two ways of using them: NotebookLM answers are grounded in the selected notebook sources, while Gemini may also use web search and other tools. This chapter therefore focuses on NotebookLM when the goal is to study the material in this course. See Google’s explanation of the <a href="https://support.google.com/notebooklm/answer/17003757">NotebookLM–Gemini integration</a>.</p>
+<p>Source grounding makes an answer easier to check, but it does not make the answer automatically correct. NotebookLM can misunderstand a source, overlook a detail, or produce an inaccurate explanation. Use it as a study partner, not as an authority.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>The central rule
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Do not ask AI to replace learning. Ask it to help you <strong>retrieve, explain, compare, practise, and verify</strong> what you are learning. Always open and read the cited part of the original course material before relying on an answer.</p>
+</div>
+</div>
+</section>
+<section id="what-you-need" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="what-you-need"><span class="header-section-number">5.2</span> What you need</h2>
+<p>To use NotebookLM for this course, you need:</p>
+<ul>
+<li>a personal Google Account or a university-managed Google Account;</li>
+<li>access to NotebookLM enabled for that account;</li>
+<li>a supported web browser and an internet connection;</li>
+<li>the course materials you want to study; and</li>
+<li>enough time to verify AI-generated answers against the original sources.</li>
+</ul>
+<p>If you use a university-managed account and cannot open NotebookLM, access may need to be enabled by the institution’s administrator. Availability and individual features can also depend on age, account type, region, and subscription. Check the current requirements in the <a href="https://support.google.com/notebooklm/answer/16164461">official NotebookLM help</a>.</p>
+<p>NotebookLM accepts sources including PDF, Markdown, Word, PowerPoint, CSV, images, pasted text, Google Docs, Google Slides, Google Sheets, web pages, public YouTube videos with captions, and audio files. The supported types and limits may change; the current list is available in the guide to <a href="https://support.google.com/notebooklm/answer/16215270">adding sources</a>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Privacy and copyright
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Upload only material you are allowed to use. Do not upload passwords, grades, Neptun identifiers, private correspondence, personal data about classmates, confidential research data, or copyrighted material that you are not permitted to share. Before using an institutional account, follow the university’s data-protection and acceptable-use rules.</p>
+</div>
+</div>
+</section>
+<section id="create-a-course-notebook" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="create-a-course-notebook"><span class="header-section-number">5.3</span> Create a course notebook</h2>
+<section id="choose-a-useful-scope" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="choose-a-useful-scope"><span class="header-section-number">5.3.1</span> 1. Choose a useful scope</h3>
+<p>Start with one notebook named, for example, <code>Computer Science 1 -- 2026/27/1</code>. A single notebook is convenient for finding connections across the course. If it becomes difficult to navigate, create smaller notebooks for major topics, such as:</p>
+<ul>
+<li><code>Files, RStudio, and Quarto</code>;</li>
+<li><code>Data and jamovi</code>;</li>
+<li><code>References and academic documents</code>; and</li>
+<li><code>Spreadsheets, Word, and presentations</code>.</li>
+</ul>
+<p>Smaller notebooks make it easier to select the relevant sources and reduce the chance that unrelated material influences an answer.</p>
+</section>
+<section id="add-the-main-book" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="add-the-main-book"><span class="header-section-number">5.3.2</span> 2. Add the main book</h3>
+<p>The simplest starting point is the <a href="Computer-Science-1.pdf">PDF version of this book</a>. Download it and add it as a PDF source. It contains the course overview, syllabus, software information, academic calendar, and the main book chapters.</p>
+<p>The laboratory and assignment pages are separate HTML documents and are not all contained in the book PDF. Add the pages needed for the topic you are studying. You can open a page from the syllabus or course schedule, copy its web address, and add that URL as a source. For example, a notebook about data transformation could include:</p>
+<ul>
+<li><a href="labs/CS_1_lab_06_jamovi_2.html">Lab 06: Exploring Data</a>;</li>
+<li><a href="labs/CS_1_lab_07_jamovi_3.html">Lab 07: Transforming Data</a>; and</li>
+<li><a href="homework/homework_3.html">Homework 3</a>.</li>
+</ul>
+<p>When a web page is added by URL, NotebookLM normally imports the text of that page, not every page linked from it. Images and embedded content may also be omitted. Add each important page separately, or save it as a PDF and upload the PDF when visual details are essential.</p>
+</section>
+<section id="name-and-organise-the-sources" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="name-and-organise-the-sources"><span class="header-section-number">5.3.3</span> 3. Name and organise the sources</h3>
+<p>Give each source a short, descriptive name, such as <code>Syllabus</code>, <code>Lab 07 -- Transforming Data</code>, or <code>Homework 3</code>. Before asking a question, select only the sources relevant to it. Mention source names in the prompt when you want a focused answer.</p>
+<p>If the course book or a laboratory page changes, update the source. A web page or uploaded local file is generally a snapshot of its content at the time it was added. Google Drive sources can offer synchronisation, but you should still verify that NotebookLM is using the latest version.</p>
+</section>
+</section>
+<section id="a-reliable-learning-workflow" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="a-reliable-learning-workflow"><span class="header-section-number">5.4</span> A reliable learning workflow</h2>
+<p>Use the following cycle for each topic:</p>
+<ol type="1">
+<li><strong>Preview.</strong> Ask for a short map of the topic: key ideas, tools, prerequisites, and the order in which to learn them.</li>
+<li><strong>Read.</strong> Study the relevant section of the book or lab yourself.</li>
+<li><strong>Retrieve.</strong> Close the source and explain the topic from memory, or answer questions without assistance.</li>
+<li><strong>Check.</strong> Ask NotebookLM to compare your explanation with the selected sources and identify omissions or misconceptions.</li>
+<li><strong>Apply.</strong> Complete a new task in RStudio, jamovi, Word, a spreadsheet, or PowerPoint without copying an AI-generated final answer.</li>
+<li><strong>Verify.</strong> Follow NotebookLM’s citations back to the course material and confirm every important claim or procedural step.</li>
+<li><strong>Reflect.</strong> Record what you can now do independently and what still needs practice.</li>
+</ol>
+<p>This cycle is more effective than repeatedly requesting summaries because it requires active recall and practical use of the material.</p>
+</section>
+<section id="how-to-write-useful-prompts" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="how-to-write-useful-prompts"><span class="header-section-number">5.5</span> How to write useful prompts</h2>
+<p>A good prompt specifies five things:</p>
+<ol type="1">
+<li><strong>Role:</strong> what kind of help you want;</li>
+<li><strong>Sources:</strong> which selected materials should be used;</li>
+<li><strong>Task:</strong> what NotebookLM should do;</li>
+<li><strong>Output:</strong> the desired structure and level; and</li>
+<li><strong>Verification:</strong> how claims should be linked to the sources.</li>
+</ol>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>Act as a patient tutor for a first-year psychology student. Use only <code>Lab 07 -- Transforming Data</code>. Explain computed variables in plain language, give one new example, and end with three questions that test understanding. Cite the source for each procedural claim.</p>
+</blockquote>
+<p>Specific prompts usually produce more useful results than requests such as “Explain this” or “Summarise everything.”</p>
+</section>
+<section id="examples-for-this-course" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="examples-for-this-course"><span class="header-section-number">5.6</span> Examples for this course</h2>
+<section id="understand-a-new-topic" class="level3" data-number="5.6.1">
+<h3 data-number="5.6.1" class="anchored" data-anchor-id="understand-a-new-topic"><span class="header-section-number">5.6.1</span> Understand a new topic</h3>
+<blockquote class="blockquote">
+<p>Using <code>Lab 01</code>, explain the difference between a file, a directory, and a file extension. First use an everyday analogy, then give a technically accurate explanation. Finish with five short self-test questions. Do not show the answers until I ask for them.</p>
+</blockquote>
+</section>
+<section id="learn-rstudio-and-quarto" class="level3" data-number="5.6.2">
+<h3 data-number="5.6.2" class="anchored" data-anchor-id="learn-rstudio-and-quarto"><span class="header-section-number">5.6.2</span> Learn RStudio and Quarto</h3>
+<blockquote class="blockquote">
+<p>Use the RStudio and Quarto course materials. Create a checklist for starting a new Quarto project and rendering an HTML document. For each step, explain why it is necessary and cite the relevant passage.</p>
+</blockquote>
+<p>If a render fails, do not ask NotebookLM merely to “fix it.” Paste the exact error message after removing personal paths or data, and ask:</p>
+<blockquote class="blockquote">
+<p>Based only on the selected course sources, list the three most likely causes of this error. For each cause, give one safe diagnostic check. Separate statements supported by the sources from your own inference.</p>
+</blockquote>
+</section>
+<section id="practise-data-concepts-and-jamovi" class="level3" data-number="5.6.3">
+<h3 data-number="5.6.3" class="anchored" data-anchor-id="practise-data-concepts-and-jamovi"><span class="header-section-number">5.6.3</span> Practise data concepts and jamovi</h3>
+<blockquote class="blockquote">
+<p>Use Labs 05–07. Give me eight scenarios in which I must identify the variable type or choose an appropriate data transformation. Ask one question at a time. After each answer, tell me what was correct, what needs improvement, and where the relevant rule appears in the sources.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Compare renaming a variable, recoding levels, computing a new variable, transforming scores into categories, and filtering cases. Present the result as a table with purpose, input, output, and one example for each.</p>
+</blockquote>
+</section>
+<section id="prepare-for-a-homework-assignment" class="level3" data-number="5.6.4">
+<h3 data-number="5.6.4" class="anchored" data-anchor-id="prepare-for-a-homework-assignment"><span class="header-section-number">5.6.4</span> Prepare for a homework assignment</h3>
+<blockquote class="blockquote">
+<p>Use <code>Homework 3</code> and the relevant jamovi labs. Turn the assignment into a sequence of checkpoints. Do not solve the assignment or choose a dataset for me. At each checkpoint, ask me to explain my decision before you give feedback.</p>
+</blockquote>
+<p>This keeps ownership of the work with the student while still providing structure and formative feedback.</p>
+</section>
+<section id="improve-bibliography-management" class="level3" data-number="5.6.5">
+<h3 data-number="5.6.5" class="anchored" data-anchor-id="improve-bibliography-management"><span class="header-section-number">5.6.5</span> Improve bibliography management</h3>
+<blockquote class="blockquote">
+<p>Use the bibliography-management materials. Explain the workflow from a DOI to a checked bibliography entry and an in-text citation. Create a list of common metadata errors I should check manually in JabRef or Zotero.</p>
+</blockquote>
+</section>
+<section id="prepare-a-presentation" class="level3" data-number="5.6.6">
+<h3 data-number="5.6.6" class="anchored" data-anchor-id="prepare-a-presentation"><span class="header-section-number">5.6.6</span> Prepare a presentation</h3>
+<blockquote class="blockquote">
+<p>Use the presentation lab and the project instructions. Create a review rubric for my slides covering structure, readability, visual consistency, evidence, and timing. Ask me questions that help me evaluate my own work; do not write the presentation for me.</p>
+</blockquote>
+</section>
+<section id="plan-study-time" class="level3" data-number="5.6.7">
+<h3 data-number="5.6.7" class="anchored" data-anchor-id="plan-study-time"><span class="header-section-number">5.6.7</span> Plan study time</h3>
+<blockquote class="blockquote">
+<p>Use the syllabus and academic calendar. Make a two-week study plan for the next assignment. Include reading, active-recall questions, software practice, and a final verification step. Clearly distinguish official deadlines from the study dates you recommend.</p>
+</blockquote>
+<p>Always confirm deadlines directly in the current <a href="./syllabus.html">syllabus</a> and <a href="./academic_calendar.html">academic calendar</a>. Do not rely on an older NotebookLM source or chat response for date-sensitive information.</p>
+</section>
+</section>
+<section id="study-materials-in-the-studio-panel" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="study-materials-in-the-studio-panel"><span class="header-section-number">5.7</span> Study materials in the Studio panel</h2>
+<p>NotebookLM can transform selected sources into several kinds of learning materials. Availability may vary by account.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>A productive use in this course</th>
+<th>What to check</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Study guide or briefing</td>
+<td>Create an overview before reading a lab</td>
+<td>Does it include the practical steps, not only definitions?</td>
+</tr>
+<tr class="even">
+<td>Mind map</td>
+<td>See relationships among files, projects, data, analyses, and outputs</td>
+<td>Are the relationships actually supported by the sources?</td>
+</tr>
+<tr class="odd">
+<td>Flashcards</td>
+<td>Practise terminology, menu locations, and concepts</td>
+<td>Can you answer before turning over the card?</td>
+</tr>
+<tr class="even">
+<td>Quiz</td>
+<td>Test understanding after studying</td>
+<td>Does the explanation justify the correct answer?</td>
+</tr>
+<tr class="odd">
+<td>Audio Overview</td>
+<td>Review concepts while travelling or walking</td>
+<td>Recheck technical instructions visually before applying them</td>
+</tr>
+</tbody>
+</table>
+<p>An Audio Overview can be customised by topic, level, language, and format. For example:</p>
+<blockquote class="blockquote">
+<p>Create a concise Audio Overview for a beginner. Focus on the difference between data preparation and descriptive analysis in jamovi. Explain why each step matters, but do not invent menu commands not present in the selected labs.</p>
+</blockquote>
+<p>Audio is useful for review, but it is not a substitute for operating the software. AI-generated audio can contain inaccuracies or glitches; Google describes the available options and limitations in the <a href="https://support.google.com/notebooklm/answer/16212820">Audio Overview guide</a>.</p>
+</section>
+<section id="how-to-evaluate-an-ai-answer" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="how-to-evaluate-an-ai-answer"><span class="header-section-number">5.8</span> How to evaluate an AI answer</h2>
+<p>Before accepting an answer, ask:</p>
+<ul>
+<li>Did the answer use the correct and current course sources?</li>
+<li>Does every important claim have a citation?</li>
+<li>Does the cited passage actually support the claim?</li>
+<li>Can I reproduce the procedure in the relevant software?</li>
+<li>Did the answer confuse an example with a general rule?</li>
+<li>Did it invent a menu item, deadline, filename, or submission method?</li>
+<li>Can I explain the answer in my own words without looking at it?</li>
+</ul>
+<p>Useful follow-up prompts include:</p>
+<blockquote class="blockquote">
+<p>Quote the shortest relevant passage for each step and explain how it supports your answer.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Which parts of your previous answer are direct statements from the sources, and which parts are inferences?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Is this question fully answered by the selected sources? If not, say what information is missing instead of guessing.</p>
+</blockquote>
+<p>If the cited source and the answer disagree, trust the current course source and inform the instructor if the source itself appears inconsistent.</p>
+</section>
+<section id="academic-integrity" class="level2" data-number="5.9">
+<h2 data-number="5.9" class="anchored" data-anchor-id="academic-integrity"><span class="header-section-number">5.9</span> Academic integrity</h2>
+<p>NotebookLM may help you understand instructions, practise skills, generate self-test questions, review your reasoning, and find relevant passages. It should not complete assessed work on your behalf.</p>
+<p>For homework and the project:</p>
+<ul>
+<li>choose and inspect your own article or dataset;</li>
+<li>make your own analytical and design decisions;</li>
+<li>perform the work yourself in the required software;</li>
+<li>verify every result against the data and course requirements;</li>
+<li>write the submitted explanation in your own words; and</li>
+<li>follow any AI-use rules given by the instructor.</li>
+</ul>
+<p>Never submit AI-generated content that you do not understand or cannot reproduce. The aim of this course is not merely to produce files, but to develop skills you can use independently.</p>
+</section>
+<section id="a-30-minute-study-session" class="level2" data-number="5.10">
+<h2 data-number="5.10" class="anchored" data-anchor-id="a-30-minute-study-session"><span class="header-section-number">5.10</span> A 30-minute study session</h2>
+<p>Here is a simple routine you can reuse:</p>
+<ol type="1">
+<li><strong>5 minutes:</strong> select one topic and the relevant sources.</li>
+<li><strong>5 minutes:</strong> ask for a concept map or three guiding questions.</li>
+<li><strong>10 minutes:</strong> study the original material and practise in the software.</li>
+<li><strong>5 minutes:</strong> answer a quiz or explain the procedure from memory.</li>
+<li><strong>5 minutes:</strong> check citations, correct mistakes, and write down the next step.</li>
+</ol>
+<p>End the session with one sentence beginning: “I can now independently…” If you cannot complete that sentence honestly, the next session should include another practical attempt rather than another summary.</p>
+</section>
+<section id="final-perspective" class="level2" data-number="5.11">
+<h2 data-number="5.11" class="anchored" data-anchor-id="final-perspective"><span class="header-section-number">5.11</span> Final perspective</h2>
+<p>The most valuable feature of a Gemini-powered notebook is not that it can produce a quick answer. Its value is that it can turn the course book into an interactive learning environment: it can ask questions, connect ideas, adapt explanations, and guide you back to the relevant source. Used well, it shortens the distance between reading and practice while keeping the student responsible for verification, judgement, and the final work.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./academic_calendar.html" class="pagination-link" aria-label="Schedule of the Academic Year">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Schedule of the Academic Year</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
